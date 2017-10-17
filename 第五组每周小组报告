@@ -92,6 +92,7 @@
   文化部 (2016, Sep 18). "文化部关于推动文化娱乐行业转型升级的意见." Retrieved Oct 15, 2017, from http://www.mcprc.gov.cn/whzx/bnsjdt/whscs/201609/t20160921_463527.html.
 
 
+
 2.相关技术标准
 
  移动性：增强现实要具有打电话功能以及不在Wi-Fi范围内也能浏览的能力，因此最佳的增强现实电池要能坚持12小时，具备4G无线数据和语音连接功能。 
@@ -150,11 +151,11 @@
                   基本原理与Marker based AR相同，不过它可以用任何具有足够特征点的物体(例如：书的封面)作为平面基准，而不需要事先制作特殊的模板
        2. LBS-Based AR
            通过GPS获取用户的地理位置，然后从某些数据源（比如wiki，google）等处获取该位置附近物体(如周围的餐馆，银行，学校等)的POI信息，再通过移动设备的电子指南针和加速度传感器获取用户手持设备的方向和倾斜角度，通过这些信息建立目标物体在现实场景中的平面基准(相当于marker)，之后坐标变换显示等的原理与Marker-Based AR类似,由于摆脱了摄像头的限制，LBS-Based AR可以更好的应用到移动设备上。下图微SekaiCamera
-       来源：增强现实技术原理及应用-GAD腾讯游戏开发者平台  http://gad.qq.com/article/detail/13551
+     来源：增强现实技术原理及应用-GAD腾讯游戏开发者平台  http://gad.qq.com/article/detail/13551
  
 （四）Augmented Reality有三个要素：
        1. Combines real and virtual 〈结合虚拟与现实〉
        2. Interactive in real time〈即时互动〉
        3. Registered in 3-D〈3D定位〉
        要达到AR的虚实结合，使用者必定得透过某种装置来观看。早先大部分的研究主要是透过HMD〈Head-Mounted Display；就是头罩式的装置〉，技术大概分成光学式〈Optical〉与影像〈Video〉两种，前者是一种透明的装置〈像是柯南的眼镜之类〉，使用者可以直接透过这层看到真实世界的影像，然后会有一些另外的投影装置把虚拟影像投射在这层透明装置上。另外一种是不透明装置，使用者看到的是由电脑处理好、已经虚实结合的影像。
-       来源：百度文库：《AR技术》https://wenku.baidu.com/view/88550d63f111f18582d05a45.html
+     来源：百度文库：《AR技术》https://wenku.baidu.com/view/88550d63f111f18582d05a45.html
