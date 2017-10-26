@@ -168,3 +168,30 @@
 
 第五组第五周小组学习报告
 
+四、发展现状
+2.
+ AR面临的挑战：
+   一、AR在智能手机上应用面临的障碍（移动设备是AR最大的应用市场）
+   1.	相机质量与成像处理。
+  智能手机通常配备的相机传感器在弱光条件下表现糟糕：图像模糊，开始出现明显色差。相机传感器硬件通常禁止低层级访问。API只提供了相机传感器的高层级访问，无法控制曝光、光圈及焦距。小型CCD传感器导致相机采样噪点增加，进而严重影响后续CV算法的发挥。图像获取过程中的质量损失很难通过后期处理步骤补偿。
+   2.	电量消耗。
+   电池电量近年来并没有显著提升。相机传感器在以高帧率持续运行时耗电量很大，其主要原因是目前手机的设计用途仍然是拍照，而不是摄影。另外，传感器和网络接口也是耗电大户。运行功能强大的AR应用会让电池迅速耗干。因此，AR应用必须只能设计成供短时间使用，而不是一种“常开”功能。
+   3.	网络依赖性。
+   远程访问大量数据受到几个因素的影响。首先，网络延迟会导致令人不爽的延迟，拖累AR应用的瞬时表现。其次，访问远程数据仅在开了流量套餐时才有可能做到，而流量套餐可能过于昂贵或者无法开通。最后，某些地区的网络覆盖可能不满足条件。于是完全独立的AR应用成为了唯一的可行选择，这就意味着需要在设备上占用大量的存储空间。
+   4.	可视化与交互的可能性。
+   智能手机的外形因素在购买决策中发挥着重要作用。实际上，可接受最大设备的尺寸严格制约了显示屏的大小。交互技术同样存在着类似的限制。多点触控界面或许是最为先进的交互机制，但它在某些特定任务——如像素级的选取上表现糟糕。
+   小结：手机硬件的条件的限制很大制约了AR的推广。
+
+   二、其他挑战
+   1.	内容创作与注册的矛盾
+   AR之所以让人兴奋，很大程度上源于终端用户参与内容创作的发展前景。个人内容创作是促使用户积极参与而非被动观察的关键所在。然而，目前仍然没有实现这一概念的基本机制。
+   2.	隐私保护。
+   The concept of modern augmented reality depends on the ability of the device to record and analyze the environment in real time. Because of this, there are potential legal concerns over privacy. Legal complications would be found in areas where a right to a certain amount of privacy is expected or where copyrighted media are displayed. In terms of individual privacy, there exists the ease of access to information that one should not readily possess about a given person. This is accomplished through facial recognition technology. Assuming that AR automatically passes information about persons that the user sees, there could be anything seen from social media, criminal record, and marital status.
+
+ AR未来的机遇
+   1.	消费者的“创造性”。
+   目前为止，多数虚拟现实体验主要是以内容消费和游戏体验为主。但是，其中最具交互性和令人振奋的一些体验却来自于那些能够让用户创建内容的应用，其中就包括谷歌TiltBrush和Oculus的Medium等之类的应用，以及像High Fidelity或Mindshow之类的更多环境创造性应用。随着WebVR的愈加普及，提供3D版的虚拟现实和增强现实内容也能够更加容易地通过浏览器来实现。更多的用户在使用AR产品的同时可以参与到开发过程当中去，为AR带来新鲜血液。
+   2.	社交互动。
+   Rec Room在提供简单校园游戏方面的社交互动方面已经做了大量的工作，这也导致让人们看到了虚拟现实有史以来最具相关性的自然式社交互动。如果将来能够更加直接地关注诸如教育、艺术、电影、以及游戏等不同类型的内容，那么其结果必将令人期待。
+   3.	体验内创收的新理念。
+   目前的应用和发行仍然非常有限，因此，创收仍处于早期阶段。一些沉浸于其中的用户可能愿意付费来获得更多的拓展内容，或者是购买他们喜欢的体验。支持这样的交易会使公司从中创收获益。
